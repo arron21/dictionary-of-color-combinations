@@ -1,0 +1,38 @@
+:root {
+  --bg-washi: #f5f1e7;
+  --bg-washi-elevated: #fbf8f1;
+  --bg-washi-subtle: #ebe5d6;
+  --ink-sumi: #1a1816;
+  --ink-secondary: #59544d;
+  --ink-muted: #847d74;
+  --border-hairline: rgba(26, 24, 22, 0.12);
+  --border-strong: rgba(26, 24, 22, 0.24);
+  --seal-vermilion: #b8332a;
+  --seal-vermilion-soft: rgba(184, 51, 42, 0.1);
+  --indigo-accent: #1d3c58;
+  --indigo-soft: rgba(29, 60, 88, 0.1);
+  --font-serif-en: 'Cormorant Garamond', Georgia, serif;
+  --font-serif-ja: 'Noto Serif JP', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: var(--bg-washi);
+  color: var(--ink-sumi);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
